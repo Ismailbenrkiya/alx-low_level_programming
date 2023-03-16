@@ -4,7 +4,7 @@
  * Return : 0 (Succes)
  */
 int main(void)
-	{
-		Print("with proper grammar, but the outcome is a piece of art,\n");
-		Return (0);
-	}
+{
+	print("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
+}
