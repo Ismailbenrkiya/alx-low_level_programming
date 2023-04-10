@@ -1,10 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int _abs(int n)
+/**
+ * _abs - is a a function that cumputs the absolute value of a num
+ * @a: input
+ * Return: positive value of ab
+ */
+int _abs(int a)
 {
-    return abs(n);
+	if (a < 0)
+	{
+		a = -a;
+		return (a);
+	}
+	else
+		return (a);
 }

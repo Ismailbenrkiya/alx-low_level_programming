@@ -1,10 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+/**
+ * _islower - function that check if c is lowecase ot not
+ * Return: zero as value if c is not a LOWERCASE none zero if it is
+ * @c: is an input
+ */
 
 int _islower(int c)
 {
-    return (c >= 'a' && c <= 'z');
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
