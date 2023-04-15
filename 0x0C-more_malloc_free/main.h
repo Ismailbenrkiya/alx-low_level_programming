@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
 char *_strdup(char *str);
@@ -12,4 +16,5 @@ char **strtow(char *str);
 int word_len(char *str);
 int count_words(char *str);
 char **strtow(char *str);
+
 #endif
